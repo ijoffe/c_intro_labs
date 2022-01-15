@@ -1,3 +1,5 @@
+// Made by Isaac Joffe
+
 #include <iostream>    // for cin and cout objects
 using namespace std;    // eliminates use of std:: prefix
 
