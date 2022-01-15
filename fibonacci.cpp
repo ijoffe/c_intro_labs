@@ -1,6 +1,6 @@
 // Made by Isaac Joffe
 
-#include <iostream>    // for cout object
+#include <iostream>    // for cin and cout object
 using namespace std;    // eliminate use of std:: prefix
 
 // prints the first 20 fibonacci numbers to standard out

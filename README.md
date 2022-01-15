@@ -27,13 +27,13 @@ The following problems have been solved:
 * Second Last (Task 3.5.3)
 * Quadrant Selection (Exercise 4.1.3, Kattis problem at https://open.kattis.com/problems/quadrant)
 * Fibonacci (Exercise 4.2.6)
+* Powers (Exercise 4.3.1)
+* Last Factorial Digit (Task 4.4.1, Kattis problem at https://open.kattis.com/problems/lastfactorialdigit)
 
 The following problems were skipped, and not solved:
 * Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
 
 The following problems still need to be solved:
-* Powers (Exercise 4.3.1)
-* Last Factorial Digit (Task 4.4.1, Kattis problem at https://open.kattis.com/problems/lastfactorialdigit)
 * Harshad Numbers (Task 4.4.2, Kattis problem at https://open.kattis.com/problems/harshadnumbers)
 * Radio Commercials (Task 4.4.3, Kattis problem at https://open.kattis.com/problems/commercials)
 * Palindrome Checking (Exercise 5.1.1, 5.3.4, 6.3.1)
