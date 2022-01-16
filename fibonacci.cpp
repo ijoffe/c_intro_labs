@@ -13,7 +13,7 @@ int main() {
 		cout << previous << endl;
 	}
 	if (amount > 1) {
-		cout << number << endl;
+		cout << current << endl;
 	}
 
 	// print out the next numbers in the series
