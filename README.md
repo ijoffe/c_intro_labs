@@ -10,13 +10,13 @@
 * [Example Usage](#example-usage)
 
 ## General Information
-
+This repository contains the code to solve most of the problems seen in the C++ Indtroductory Labs in the CMPUT 275 course. This code will be submitted in the C++ Intro Labs contest, providing solutions to the problems for future students. All code was created by me, Isaac Joffe, in January of 2022.
 
 ## Description
-
+The aim of the project is to create solution code for the problems contained in the C++ Introductory Labs. In addition to solution code written in C++ to most of the problems, a makefile is provided which compiles and links all source code contained to create binary executables for testing of the code.
 
 ## Background
-
+The C++ Introductory Labs are provided at the beginning of the CMPUT 275 course to teach the basics of C++. The exercises require the use and manipulation of many fundamental concepts and tools, such as input, output, basic arithmetic, selection, iteration (definite and indefinite), basic data types (integers, floats, characters, booleans, etc.), advanced data types (arrays, vectors, stacks, strings, etc.), and more. The code contained will be submitted in the C++ Intro Labs class-wide contest for a chance to win a prize and to produce useful solution code for future students taking CMPUT 275.
 
 ## Problems Solved
 The following problems have been solved:
@@ -56,10 +56,21 @@ The following problems still need to be solved:
 
 
 ## Technologies
-
+The code contained is written in C++ and designed to be compiled using C++ 11 (as demonstrated in the makefile). The provided makefile utilizes the G++ compiler to create object files and binary executables to run and test all of the source code in this repository. I created all the code using my personal virtual machine, which runs the Ubuntu distribution of the Linux operating system, through the Sublime Text text editor and the Linux terminal window.
 
 ## Instructions
+Any of the individual programs may be run using the command `make <problem_name>` in the terminal to create a binary executable which can then be run using `./<problem_name>`, also in a terminal.
 
+To create executables for all of the code contained, type `make` or `make all` in a terminal window. From here, any of the problems can be executed using `./<problem_name>`.
 
 ## Example Usage
-
+```
+make helloworld
+./helloworld
+```
+```
+make
+./sum
+./r2
+./average
+```

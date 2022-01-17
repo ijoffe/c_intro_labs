@@ -13,7 +13,7 @@ int main() {
 	}
 
 	bool flag = true;    // assume default is palindrome
-	for (int i = 0; i < words.size() / 2; i++) {
+	for (long unsigned int i = 0; i < words.size() / 2; i++) {
 		if (words[i] != words[words.size() - i - 1]) {
 			flag = false;    // if characters dont match, not a palindrome
 			break;

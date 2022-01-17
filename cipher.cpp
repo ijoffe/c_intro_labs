@@ -9,7 +9,7 @@ using namespace std;    // eliminate use of std:: prefix
 int main() {
 	string word;
 	cin >> word;
-	for (int i = 0; i < word.length(); i++) {
+	for (long unsigned int i = 0; i < word.length(); i++) {
 		// shift each character in the word down the ASCII table by 3 spots
 		word[i] += 3;
 		if (!isalpha(word[i])) {
