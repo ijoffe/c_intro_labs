@@ -2,16 +2,21 @@ CC = g++
 CC_FLAGS = -std=c++11 -Wall -g
 
 EXES = helloworld sum r2 average secondlastdigit quadrantselection fibonacci \
-powers lastfactorialdigit harshadnumbers palindrome.v1
+powers lastfactorialdigit harshadnumbers palindrome.v1 palindrome.v2 \
+delimitersoup cipher
 
 OBJS = helloworld.o sum.o r2.o average.o secondlastdigit.o quadrantselection.o \
-fibonacci.o powers.o lastfactorialdigit.o harshadnumbers.o palindrome.v1.o
+fibonacci.o powers.o lastfactorialdigit.o harshadnumbers.o palindrome.v1.o \
+palindrome.v2.o delimitersoup.o cipher.o
 
 SRCS = helloworld.cpp sum.cpp r2.cpp average.cpp secondlastdigit.cpp \
 quadrantselection.cpp fibonacci.cpp powers.cpp lastfactorialdigit.cpp \
-harshadnumbers.cpp palindrome.v1.cpp
+harshadnumbers.cpp palindrome.v1.cpp palindrome.v2.cpp delimitersoup.cpp \
+cipher.cpp
 
 all: $(EXES)
+
+compile: $(OBJS)
 
 helloworld: helloworld.o
 	$(CC) helloworld.o -o helloworld
@@ -78,6 +83,24 @@ palindrome.v1: palindrome.v1.o
 
 palindrome.v1.o: palindrome.v1.cpp
 	$(CC) -c palindrome.v1.cpp $(CC_FLAGS)
+
+palindrome.v2: palindrome.v2.o
+	$(CC) palindrome.v2.o -o palindrome.v2
+
+palindrome.v2.o: palindrome.v2.cpp
+	$(CC) -c palindrome.v2.cpp $(CC_FLAGS)
+
+delimitersoup: delimitersoup.o
+	$(CC) delimitersoup.o -o delimitersoup
+
+delimitersoup.o: delimitersoup.cpp
+	$(CC) -c delimitersoup.cpp $(CC_FLAGS)
+
+cipher: cipher.o
+	$(CC) cipher.o -o cipher
+
+cipher.o: cipher.cpp
+	$(CC) -c cipher.cpp $(CC_FLAGS)
 
 clean:
 	rm -f $(EXES) $(OBJS)
