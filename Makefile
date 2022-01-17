@@ -3,16 +3,16 @@ CC_FLAGS = -std=c++11 -Wall -g
 
 EXES = helloworld sum r2 average secondlastdigit quadrantselection fibonacci \
 powers lastfactorialdigit harshadnumbers palindrome.v1 palindrome.v2 \
-delimitersoup cipher
+delimitersoup cipher icpcawards grandadventure
 
 OBJS = helloworld.o sum.o r2.o average.o secondlastdigit.o quadrantselection.o \
 fibonacci.o powers.o lastfactorialdigit.o harshadnumbers.o palindrome.v1.o \
-palindrome.v2.o delimitersoup.o cipher.o
+palindrome.v2.o delimitersoup.o cipher.o icpcawards.o grandadventure.o
 
 SRCS = helloworld.cpp sum.cpp r2.cpp average.cpp secondlastdigit.cpp \
 quadrantselection.cpp fibonacci.cpp powers.cpp lastfactorialdigit.cpp \
 harshadnumbers.cpp palindrome.v1.cpp palindrome.v2.cpp delimitersoup.cpp \
-cipher.cpp
+cipher.cpp icpcawards.cpp grandadventure.cpp
 
 all: $(EXES)
 
@@ -101,6 +101,18 @@ cipher: cipher.o
 
 cipher.o: cipher.cpp
 	$(CC) -c cipher.cpp $(CC_FLAGS)
+
+icpcawards: icpcawards.o
+	$(CC) icpcawards.o -o icpcawards
+
+icpcawards.o: icpcawards.cpp
+	$(CC) -c icpcawards.cpp $(CC_FLAGS)
+
+grandadventure: grandadventure.o
+	$(CC) grandadventure.o -o grandadventure
+
+grandadventure.o: grandadventure.cpp
+	$(CC) -c grandadventure.cpp $(CC_FLAGS)
 
 clean:
 	rm -f $(EXES) $(OBJS)

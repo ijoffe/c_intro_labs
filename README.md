@@ -35,14 +35,14 @@ The following problems have been solved:
 * Delimiter Soup (Exercise 5.4.3, Kattis problem at https://open.kattis.com/problems/delimitersoup)
 * Cipher (Exercise 5.5.2)
 * ICPC Awards (Exercise 5.6.1, Kattis problem at https://open.kattis.com/problems/icpcawards)
+* Grand Adventure (Task 5.8.1, Kattis problem at https://open.kattis.com/problems/thegrandadventure)
 
 The following problems were skipped, and not solved:
 * Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
 * Radio Commercials (Task 4.4.3, Kattis problem at https://open.kattis.com/problems/commercials)
+* Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
 
 The following problems still need to be solved:
-* Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
-* Grand Adventure (Task 5.8.1, Kattis problem at https://open.kattis.com/problems/thegrandadventure)
 * No Duplicates (Task 5.8.2, Kattis problem at https://open.kattis.com/problems/nodup)
 * Babelfish (Task 5.8.3, Kattis problem at https://open.kattis.com/problems/babelfish)
 * Piece of Cake (Exercise 6.2.1, Kattis problem at https://open.kattis.com/problems/pieceofcake2)
