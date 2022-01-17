@@ -3,7 +3,8 @@
 #include <iostream>    // for cin and cout object
 using namespace std;    // eliminate use of std:: prefix
 
-// takes an input string and its length and prints if it is a palindrome or not
+// takes a string and its length from standard in and prints if it is a
+// palindrome or not to standard out
 int main() {
 	int length;    // assume int provides enough storage space
 	cin >> length;

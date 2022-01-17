@@ -4,7 +4,8 @@
 #include <vector>    // to be used for the words
 using namespace std;    // eliminate use of std:: prefix
 
-// takes an input string and prints if it is a palindrome or not
+// takes an input string from standard in and prints if it is a palindrome or
+// not to standard out
 int main() {
 	vector<char> words;
 	char character;

@@ -6,8 +6,8 @@ using namespace std;    // eliminate use of std:: prefix
 // solves kattis problem available at 
 // "https://open.kattis.com/problems/quadrant"
 
-// takes two integers from standard input representing a point in R^2 and
-// prints the integer quadrant number to stndard out
+// takes two integers from standard in representing a point in R^2 and prints
+// the integer quadrant number to standard out
 int main() {
 	short x, y;    // short type satisfies the kattis input gurantees
 	cin >> x >> y;

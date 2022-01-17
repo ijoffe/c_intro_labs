@@ -16,8 +16,8 @@ int sum_digits(int number) {
 	return sum;
 }
 
-// takes an integer from standard input and prints the smallest harshad number
-// that is larger than the inputted integer
+// takes an integer from standard in and prints the smallest harshad number
+// that is larger than the inputted integer to standard out
 int main() {
 	unsigned int number;
 	cin >> number;

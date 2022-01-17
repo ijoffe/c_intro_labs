@@ -34,13 +34,13 @@ The following problems have been solved:
 * Palindrome Checking (Exercise 5.3.4)
 * Delimiter Soup (Exercise 5.4.3, Kattis problem at https://open.kattis.com/problems/delimitersoup)
 * Cipher (Exercise 5.5.2)
+* ICPC Awards (Exercise 5.6.1, Kattis problem at https://open.kattis.com/problems/icpcawards)
 
 The following problems were skipped, and not solved:
 * Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
 * Radio Commercials (Task 4.4.3, Kattis problem at https://open.kattis.com/problems/commercials)
 
 The following problems still need to be solved:
-* ICPC Awards (Exercise 5.6.1, Kattis problem at https://open.kattis.com/problems/icpcawards)
 * Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
 * Grand Adventure (Task 5.8.1, Kattis problem at https://open.kattis.com/problems/thegrandadventure)
 * No Duplicates (Task 5.8.2, Kattis problem at https://open.kattis.com/problems/nodup)

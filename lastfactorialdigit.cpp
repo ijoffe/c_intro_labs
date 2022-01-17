@@ -18,8 +18,9 @@ int factorial(int number) {
 	return result;
 }
 
-// takes an integer representing the number of integers to take in and prints
-// the last digit in each of the input integers factorial
+// takes an integer representing the number of integers to take in from
+// standard in and prints the last digit in each of the input integers
+// factorial to standard out
 int main() {
 	// short type and integer 10 satisfies kattis input gurantees
 	short amount, digit[10] = {};

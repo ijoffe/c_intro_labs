@@ -3,7 +3,7 @@
 #include <iostream>    // for cin and cout objects
 using namespace std;    // eliminates use of std:: prefix
 
-// accepts two integers from standard in and prints their sum
+// takes two integers from standard in and prints their sum to standard out
 int main() {
 	int number1, number2, sum;    // assume int provides enough storage
 	cin >> number1 >> number2;

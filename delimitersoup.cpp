@@ -8,9 +8,10 @@ using namespace std;    // eliminate use of std:: prefix
 // solves kattis problem available at 
 // "https://open.kattis.com/problems/delimitersoup"
 
-// takes an integer length and a sequence of brackets of that length and
-// prints whether or not it has an error and where and what that error is,
-// errors occur when brackets are not closed with their own type
+// takes an integer length and a sequence of brackets of that length from
+// standard in and prints whether or not it has an error and where and what
+// that error is to standard out, errors occur when brackets are not closed
+// with their own type
 int main() {
 	short length;    // short type satisfies kattis input gurantees
 	cin >> length;
