@@ -36,6 +36,8 @@ The following problems have been solved:
 * Cipher (Exercise 5.5.2)
 * ICPC Awards (Exercise 5.6.1, Kattis problem at https://open.kattis.com/problems/icpcawards)
 * Grand Adventure (Task 5.8.1, Kattis problem at https://open.kattis.com/problems/thegrandadventure)
+* No Duplicates (Task 5.8.2, Kattis problem at https://open.kattis.com/problems/nodup)
+* Babelfish (Task 5.8.3, Kattis problem at https://open.kattis.com/problems/babelfish)
 
 The following problems were skipped, and not solved:
 * Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
@@ -43,8 +45,6 @@ The following problems were skipped, and not solved:
 * Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
 
 The following problems still need to be solved:
-* No Duplicates (Task 5.8.2, Kattis problem at https://open.kattis.com/problems/nodup)
-* Babelfish (Task 5.8.3, Kattis problem at https://open.kattis.com/problems/babelfish)
 * Piece of Cake (Exercise 6.2.1, Kattis problem at https://open.kattis.com/problems/pieceofcake2)
 * Palindrome Checking (Exercise 6.3.1)
 * Sort of Sorting (Exercise 6.4.1, Kattis problem at https://open.kattis.com/problems/sortofsorting)

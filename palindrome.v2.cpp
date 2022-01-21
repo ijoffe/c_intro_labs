@@ -1,6 +1,7 @@
 // Made by Isaac Joffe
 
 #include <iostream>    // for cin and cout object
+#include <string>    // to read in input
 #include <vector>    // to be used for the words
 using namespace std;    // eliminate use of std:: prefix
 
@@ -8,9 +9,12 @@ using namespace std;    // eliminate use of std:: prefix
 // not to standard out
 int main() {
 	vector<char> words;
-	char character;
-	while (cin >> character) {    // read until end of input (CRTL+D)
-		words.push_back(character);    // add new characters to the back
+	string inputline;
+	getline(cin, inputline);    // read whole line of input at once
+	for (long unsigned int i = 0; i < inputline.size(); i++) {
+		if (inputline[i] != ' ') {
+			words.push_back(inputline[i]);    // add non-spaces to the back
+		}
 	}
 
 	bool flag = true;    // assume default is palindrome

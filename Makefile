@@ -3,16 +3,17 @@ CC_FLAGS = -std=c++11 -Wall -g
 
 EXES = helloworld sum r2 average secondlastdigit quadrantselection fibonacci \
 powers lastfactorialdigit harshadnumbers palindrome.v1 palindrome.v2 \
-delimitersoup cipher icpcawards grandadventure
+delimitersoup cipher icpcawards grandadventure noduplicates
 
 OBJS = helloworld.o sum.o r2.o average.o secondlastdigit.o quadrantselection.o \
 fibonacci.o powers.o lastfactorialdigit.o harshadnumbers.o palindrome.v1.o \
-palindrome.v2.o delimitersoup.o cipher.o icpcawards.o grandadventure.o
+palindrome.v2.o delimitersoup.o cipher.o icpcawards.o grandadventure.o \
+noduplicates.o
 
 SRCS = helloworld.cpp sum.cpp r2.cpp average.cpp secondlastdigit.cpp \
 quadrantselection.cpp fibonacci.cpp powers.cpp lastfactorialdigit.cpp \
 harshadnumbers.cpp palindrome.v1.cpp palindrome.v2.cpp delimitersoup.cpp \
-cipher.cpp icpcawards.cpp grandadventure.cpp
+cipher.cpp icpcawards.cpp grandadventure.cpp noduplicates.cpp
 
 all: $(EXES)
 
@@ -113,6 +114,12 @@ grandadventure: grandadventure.o
 
 grandadventure.o: grandadventure.cpp
 	$(CC) -c grandadventure.cpp $(CC_FLAGS)
+
+noduplicates: noduplicates.o
+	$(CC) noduplicates.o -o noduplicates
+
+noduplicates.o: noduplicates.cpp
+	$(CC) -c noduplicates.cpp $(CC_FLAGS)
 
 clean:
 	rm -f $(EXES) $(OBJS)

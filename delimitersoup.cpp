@@ -20,8 +20,8 @@ int main() {
 	bool flag = true;    // assume ok to start
 	char type, character;
 	short index;
-	cin.get(character);    // account for newline after length input
-	program.push(character);    // initiate stack so it is never empty
+	cin.ignore();    // account for newline after length input
+	program.push('\0');    // initiate stack so it is never empty
 
 	for (int i = 0; i < length; i++) {
 		cin.get(character);    // receive next charcater from standard input
