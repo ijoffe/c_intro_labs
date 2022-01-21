@@ -13,22 +13,22 @@ using namespace std;    // eliminate use of std:: prefix
 // of that length from standard in and prints the top 12 teams from different
 // universities to standard out
 int main() {
-	short amount;    // short satisfies kattis input gurantees
-	cin >> amount;
-	vector<string> winners;    // used to store the 12 winners
-	unordered_set<string> universities;    // used to store universities seen
-	string university, team;    // for the current team in the sequence
-	for (int i = 0; i < amount; i++) {
-		cin >> university >> team;
-		if (winners.size() < 12 && 
-			universities.find(university) == universities.end()) {
-			// only entered if in the top 12 and from a unique university
-			universities.insert(university);
-			winners.push_back(university + " " + team);
-		}
-	}
-	for (int i = 0; i < 12; i++) {
-		cout << winners[i] << endl;    // prints winners in order
-	}
-	return 0;    // default return
+    short amount;    // short satisfies kattis input gurantees
+    cin >> amount;
+    vector<string> winners;    // used to store the 12 winners
+    unordered_set<string> universities;    // used to store universities seen
+    string university, team;    // for the current team in the sequence
+    for (int i = 0; i < amount; i++) {
+        cin >> university >> team;
+        if (winners.size() < 12 && 
+            universities.find(university) == universities.end()) {
+            // only entered if in the top 12 and from a unique university
+            universities.insert(university);
+            winners.push_back(university + " " + team);
+        }
+    }
+    for (int i = 0; i < 12; i++) {
+        cout << winners[i] << endl;    // prints winners in order
+    }
+    return 0;    // default return
 }

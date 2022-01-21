@@ -9,9 +9,9 @@ using namespace std;    // eliminate use of std:: prefix
 // numbers used for the mean and prints the other number used for the mean
 // to standard out
 int main() {
-	short R1, R2, S;    // short type satisfies the kattis input gurantees
-	cin >> R1 >> S;
-	R2 = 2 * S - R1;    // rearrange the formula S=(R1+R2)/2
-	cout << R2 << endl;
-	return 0;    // default return
+    short R1, R2, S;    // short type satisfies the kattis input gurantees
+    cin >> R1 >> S;
+    R2 = 2 * S - R1;    // rearrange the formula S=(R1+R2)/2
+    cout << R2 << endl;
+    return 0;    // default return
 }
