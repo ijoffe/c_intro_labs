@@ -38,6 +38,8 @@ The following problems have been solved:
 * Grand Adventure (Task 5.8.1, Kattis problem at https://open.kattis.com/problems/thegrandadventure) under filename grandadventure.cpp
 * No Duplicates (Task 5.8.2, Kattis problem at https://open.kattis.com/problems/nodup) under filename noduplicates.cpp
 * Babelfish (Task 5.8.3, Kattis problem at https://open.kattis.com/problems/babelfish) under filename babelfish.cpp
+* Piece of Cake (Exercise 6.2.1, Kattis problem at https://open.kattis.com/problems/pieceofcake2) under filename pieceofcake.cpp
+* Palindrome Checking (Exercise 6.3.1) under filename palindrome.v3.cpp
 
 The following problems were skipped, and not solved:
 * Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
@@ -45,8 +47,6 @@ The following problems were skipped, and not solved:
 * Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
 
 The following problems still need to be solved:
-* Piece of Cake (Exercise 6.2.1, Kattis problem at https://open.kattis.com/problems/pieceofcake2)
-* Palindrome Checking (Exercise 6.3.1)
 * Sort of Sorting (Exercise 6.4.1, Kattis problem at https://open.kattis.com/problems/sortofsorting)
 * Stacking Cups (Task 6.6.1, Kattis problem at https://open.kattis.com/problems/cups)
 * Line Them Up (Task 6.6.2, Kattis problem at https://open.kattis.com/problems/lineup)
