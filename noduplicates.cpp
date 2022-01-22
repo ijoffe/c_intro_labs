@@ -13,6 +13,7 @@ int main() {
     unordered_set<string> words;    // used to store words already seen
     string inputline;
     getline(cin, inputline);    // read whole line of input at once
+    inputline += " ";    // add extra space to break out of last word
     bool flag = true;    // assume no words repeat
 
     for (unsigned long int i = 0; i < inputline.size(); i++) {

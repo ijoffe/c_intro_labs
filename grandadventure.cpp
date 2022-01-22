@@ -16,6 +16,7 @@ string simulate_adventure() {
     stack<char> bag;    // bag is first-in/last-out, like a stack
     bag.push('\0');    // initialize bag so it is never empty
     bool flag = true;    // assume Jim can make it through
+    
     for (long unsigned int i = 0; i < path.size(); i++) {
         if (path[i] == '$') {
             bag.push('$');    // add it to top of the bag
@@ -47,6 +48,11 @@ string simulate_adventure() {
             }           
         }
     }
+
+    if (bag.top() != '\0') {    // check if bag is empty
+        flag = false;    // Jim failed his adventure
+    }
+
     if (flag) {
         return("YES");
     } else {
