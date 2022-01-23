@@ -5,17 +5,11 @@ using namespace std;    // eliminate use of std:: prefix
 
 // prints the first 20 fibonacci numbers to standard out
 int main() {
-    short next, current = 1, previous = 0;    // short type gives enough space
-    const int amount = 20;    // set number of numbers to be printed
-
-    // print out trivial beginning numbers if required
-    if (amount > 0) {
-        cout << previous << endl;
-    }
-    if (amount > 1) {
-        cout << current << endl;
-    }
-
+    int next, previous = 0, current = 1;    // int type gives enough space
+    const int amount = 20;    // set number (>=2) of numbers to be printed
+    // print out trivial beginning numbers
+    cout << previous << endl;
+    cout << current << endl;
     // print out the next numbers in the series
     for (int i = 3; i <= amount; i++) {
         next = current + previous;    // next number is sum of the last two

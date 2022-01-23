@@ -19,11 +19,10 @@ int sum_digits(int number) {
 // takes an integer from standard in and prints the smallest harshad number
 // that is larger than the inputted integer to standard out
 int main() {
-    unsigned int number;
+    int number;
     cin >> number;
     while (true) {
-        int sum;
-        sum = sum_digits(number);
+        int sum = sum_digits(number);
         if (number % sum == 0) {
             break;    // exit if the sum is a factor of the number
         }

@@ -9,9 +9,9 @@ using namespace std;    // eliminate use of std:: prefix
 // takes two integers from standard in representing a point in R^2 and prints
 // the integer quadrant number to standard out
 int main() {
-    short x, y;    // short type satisfies the kattis input gurantees
+    int x, y;    // int type satisfies the kattis input gurantees
     cin >> x >> y;
-    // quadrants are numbered 1-4 starting from x+, y+ moving counterclockwise
+    // quadrants are numbered 1-4 moving counterclockwise starting from x+/y+
     if (x > 0 && y > 0) {
         cout << 1 << endl;
     } else if (x < 0 && y > 0) {

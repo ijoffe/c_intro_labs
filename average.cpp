@@ -1,6 +1,6 @@
 // Made by Isaac Joffe
 
-#include <iostream>    // for cout object
+#include <iostream>    // for cin and cout object
 using namespace std;    // eliminate use of std:: prefix
 
 // takes three integers from standard in and prints their average value as a

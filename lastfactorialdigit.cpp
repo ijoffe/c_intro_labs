@@ -22,8 +22,7 @@ int factorial(int number) {
 // standard in and prints the last digit in each of the input integers
 // factorial to standard out
 int main() {
-    // short type and integer 10 satisfies kattis input gurantees
-    short amount, digit[10] = {};
+    int amount, digit[10];    // integer type satisfies kattis input gurantees
     cin >> amount;
     for (int i = 0; i < amount; i++) {
         int number;
