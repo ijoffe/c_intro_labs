@@ -20,14 +20,14 @@ int main() {
 
     for (int i = 0; i < number; i++) {
         string inputline;
-        int radius;
-        string colour;
         getline(cin, inputline);    // read in line all at once
         // locate space character to break into substrings around the space
         int space_index = inputline.find(' ');
         string first = inputline.substr(0, space_index);
         string second = inputline.substr(space_index + 1);
 
+        int radius;
+        string colour;
         if (isdigit(first[0])) {    // check if number comes first
             radius = stoi(first) / 2;    // convert diameter to radius
             colour = second;

@@ -9,9 +9,9 @@ using namespace std;    // eliminate use of std:: prefix
 // takes an input string from standard in and prints if it is a palindrome or
 // not to standard out
 int main() {
-    vector<char> words, flipped;
     string inputline;
     getline(cin, inputline);    // read whole line of input at once
+    vector<char> words, flipped;
     for (long unsigned int i = 0; i < inputline.size(); i++) {
         if (inputline[i] != ' ') {
             words.push_back(inputline[i]);    // add non-spaces to the back

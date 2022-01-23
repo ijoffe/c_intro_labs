@@ -46,9 +46,10 @@ vector<string> sort_of_sorting(int number) {
 // takes an integer from standard in and prints each set of words in their
 // sort-of-sorted order to standard out
 int main() {
-    int number, amount = 0;
+    int amount = 0;
     queue<vector<string>> sorted;    // for ouputs
     while (true) {
+        int number;
         cin >> number;
         if (number == 0) {
             break;    // no more tests to be read

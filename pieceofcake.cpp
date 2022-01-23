@@ -13,7 +13,9 @@ using namespace std;    // eliminate use of std:: prefix
 int main() {
     int length, height, width, depth = 4, volume;
     cin >> length >> height >> width;
-    volume = max(height, length - height)*max(width, length - width)*depth;
+    height = max(height, length - height);    // take larger half
+    width = max(width, length - width);    // take larger half
+    volume = height * width * depth;    // apply basic cuboid volume formula
     cout << volume << endl;
     return 0;    // default return
 }

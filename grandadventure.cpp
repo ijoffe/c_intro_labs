@@ -15,8 +15,8 @@ string simulate_adventure() {
     cin >> path;
     stack<char> bag;    // bag is first-in/last-out, like a stack
     bag.push('\0');    // initialize bag so it is never empty
-    bool flag = true;    // assume Jim can make it through
     
+    bool flag = true;    // assume Jim can make it through
     for (long unsigned int i = 0; i < path.size(); i++) {
         if (path[i] == '$') {
             bag.push('$');    // add it to top of the bag
@@ -64,12 +64,14 @@ string simulate_adventure() {
 // determine the adventure results, prints the results of teh adventure to
 // standard out
 int main() {
-    short amount;    // short satisfies kattis input gurantees
+    int amount;    // int satisfies kattis input gurantees
     cin >> amount;
     string output[5];    // based on kattis input gurantees
+
     for (int i = 0; i < amount; i++) {
         output[i] = simulate_adventure();    // process each string separately
     }
+
     for (int i = 0; i < amount; i++) {
         cout << output[i] << endl;
     }

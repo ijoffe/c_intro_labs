@@ -13,17 +13,17 @@ using namespace std;    // eliminate use of std:: prefix
 // that error is to standard out, errors occur when brackets are not closed
 // with their own type
 int main() {
-    short length;    // short type satisfies kattis input gurantees
+    int length;    // int type satisfies kattis input gurantees
     cin >> length;
+    cin.ignore();    // account for newline 
     stack<char> program;    // stack represents input sequence
+    program.push('\0');    // initiate stack so it is never empty
+    char type;
+    int index;
 
     bool flag = true;    // assume ok to start
-    char type, character;
-    short index;
-    cin.ignore();    // account for newline after length input
-    program.push('\0');    // initiate stack so it is never empty
-
     for (int i = 0; i < length; i++) {
+        char character;
         cin.get(character);    // receive next charcater from standard input
 
         if (character == '(') {
