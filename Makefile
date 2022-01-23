@@ -5,14 +5,14 @@ EXES = helloworld sum r2 average solvingforcarrots secondlastdigit \
 quadrantselection fibonacci powers lastfactorialdigit harshadnumbers \
 radiocommercials palindrome.v1 palindrome.v2 delimitersoup cipher icpcawards \
 compoundwords grandadventure noduplicates babelfish pieceofcake \
-palindrome.v3 sortofsorting stackingcups linethemup
+palindrome.v3 sortofsorting stackingcups linethemup iwannabe
 
 OBJS = helloworld.o sum.o r2.o average.o solvingforcarrots.o \
 secondlastdigit.o quadrantselection.o fibonacci.o powers.o \
 lastfactorialdigit.o harshadnumbers.o radiocommercials.o palindrome.v1.o \
 palindrome.v2.o delimitersoup.o cipher.o icpcawards.o compoundwords.o \
 grandadventure.o noduplicates.o babelfish.o pieceofcake.o palindrome.v3.o \
-sortofsorting.o stackingcups.o linethemup.o
+sortofsorting.o stackingcups.o linethemup.o iwannabe.o
 
 all: $(EXES)
 
@@ -173,6 +173,12 @@ linethemup: linethemup.o
 
 linethemup.o: linethemup.cpp
 	$(CC) -c linethemup.cpp $(CC_FLAGS)
+
+iwannabe: iwannabe.o
+	$(CC) iwannabe.o -o iwannabe
+
+iwannabe.o: iwannabe.cpp
+	$(CC) -c iwannabe.cpp $(CC_FLAGS)
 
 clean:
 	rm -f $(EXES) $(OBJS)

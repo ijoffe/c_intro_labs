@@ -19,7 +19,7 @@ The aim of the project is to create solution code for the problems contained in 
 The C++ Introductory Labs are provided at the beginning of the CMPUT 275 course to teach the basics of C++. The exercises require the use and manipulation of many fundamental concepts and tools, such as input, output, basic arithmetic, selection, iteration (definite and indefinite), basic data types (integers, floats, characters, booleans, etc.), advanced data types (arrays, vectors, stacks, strings, etc.), and more. The code contained will be submitted in the C++ Intro Labs class-wide contest for a chance to win a prize and to produce useful solution code for future students taking CMPUT 275.
 
 ## Problems Solved
-The following problems have been solved:
+All problems included in the C++ Intro Labs package were solved, including the following:
 * Hello, World! (Task 2.4.1, Kattis problem at https://open.kattis.com/problems/hello) under filename helloworld.cpp
 * Sum (Task 2.4.2) under filename sum.cpp
 * R2 (Task 2.4.3, Kattis problem at https://open.kattis.com/problems/r2) under filename r2.cpp
@@ -46,9 +46,7 @@ The following problems have been solved:
 * Sort of Sorting (Exercise 6.4.1, Kattis problem at https://open.kattis.com/problems/sortofsorting) under filename sortofsorting.cpp
 * Stacking Cups (Task 6.6.1, Kattis problem at https://open.kattis.com/problems/cups) under filename stackingcups.cpp
 * Line Them Up (Task 6.6.2, Kattis problem at https://open.kattis.com/problems/lineup) under filename linethemup.cpp
-
-The following problems were skipped, and not solved:
-* I Wanna Be The Very Best (Task 6.6.3, Kattis problem at https://open.kattis.com/problems/iwannabe)
+* I Wanna Be The Very Best (Task 6.6.3, Kattis problem at https://open.kattis.com/problems/iwannabe) under filename iwannabe.cpp
 
 ## Technologies
 The code contained is written in C++ and designed to be compiled using C++ 11 (as demonstrated in the makefile). The provided makefile utilizes the G++ compiler to create object files and binary executables to run and test all of the source code in this repository. I created all the code using my personal virtual machine, which runs the Ubuntu distribution of the Linux operating system, through the Sublime Text text editor and the Linux terminal window.
@@ -59,6 +57,7 @@ Any of the individual programs may be run using the command `make <problem_name>
 To create executables for all of the code contained, type `make` or `make all` in a terminal window. From here, any of the problems can be executed using `./<problem_name>`.
 
 ## Example Usage
+The following are examples of commands that can be entered into a terminal window to run the programs.
 ```
 make helloworld
 ./helloworld
