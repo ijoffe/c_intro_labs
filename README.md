@@ -24,12 +24,14 @@ The following problems have been solved:
 * Sum (Task 2.4.2) under filename sum.cpp
 * R2 (Task 2.4.3, Kattis problem at https://open.kattis.com/problems/r2) under filename r2.cpp
 * Average (Task 3.5.1) under filename average.cpp
+* Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots) under filename solvingforcarrots.cpp
 * Second Last Digit (Task 3.5.3) under filename secondlastdigit.cpp
 * Quadrant Selection (Exercise 4.1.3, Kattis problem at https://open.kattis.com/problems/quadrant) under filename quadrantselection.cpp
 * Fibonacci (Exercise 4.2.6) under filename fibonacci.cpp
 * Powers (Exercise 4.3.1) under filename powers.cpp
 * Last Factorial Digit (Task 4.4.1, Kattis problem at https://open.kattis.com/problems/lastfactorialdigit) under filename lastfactorialdigit.cpp
 * Harshad Numbers (Task 4.4.2, Kattis problem at https://open.kattis.com/problems/harshadnumbers) under filename harshadnumbers.cpp
+* Radio Commercials (Task 4.4.3, Kattis problem at https://open.kattis.com/problems/commercials) under filename radiocommercials.cpp
 * Palindrome Checking (Exercise 5.1.1) under filename palindrome.v1.cpp
 * Palindrome Checking (Exercise 5.3.4) under filename palindrome.v2.cpp
 * Delimiter Soup (Exercise 5.4.3, Kattis problem at https://open.kattis.com/problems/delimitersoup) under filename delimitersoup.cpp
@@ -42,18 +44,11 @@ The following problems have been solved:
 * Palindrome Checking (Exercise 6.3.1) under filename palindrome.v3.cpp
 * Sort of Sorting (Exercise 6.4.1, Kattis problem at https://open.kattis.com/problems/sortofsorting) under filename sortofsorting.cpp
 * Stacking Cups (Task 6.6.1, Kattis problem at https://open.kattis.com/problems/cups) under filename stackingcups.cpp
+* Line Them Up (Task 6.6.2, Kattis problem at https://open.kattis.com/problems/lineup) under filename linethemup.cpp
 
 The following problems were skipped, and not solved:
-* Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
-* Radio Commercials (Task 4.4.3, Kattis problem at https://open.kattis.com/problems/commercials)
 * Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
-
-The following problems still need to be solved:
-* Line Them Up (Task 6.6.2, Kattis problem at https://open.kattis.com/problems/lineup)
 * I Wanna Be The Very Best (Task 6.6.3, Kattis problem at https://open.kattis.com/problems/iwannabe)
-* Student Record (Exercise 7.1.4)
-* Grade Book (Exercise 7.2.4, 7.3.4, Task 7.4.1)
-
 
 ## Technologies
 The code contained is written in C++ and designed to be compiled using C++ 11 (as demonstrated in the makefile). The provided makefile utilizes the G++ compiler to create object files and binary executables to run and test all of the source code in this repository. I created all the code using my personal virtual machine, which runs the Ubuntu distribution of the Linux operating system, through the Sublime Text text editor and the Linux terminal window.

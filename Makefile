@@ -1,16 +1,18 @@
 CC = g++
 CC_FLAGS = -std=c++11 -Wall -g
 
-EXES = helloworld sum r2 average secondlastdigit quadrantselection fibonacci \
-powers lastfactorialdigit harshadnumbers palindrome.v1 palindrome.v2 \
-delimitersoup cipher icpcawards grandadventure noduplicates babelfish \
-pieceofcake palindrome.v3 sortofsorting stackingcups
+EXES = helloworld sum r2 average solvingforcarrots secondlastdigit \
+quadrantselection fibonacci powers lastfactorialdigit harshadnumbers \
+radiocommercials palindrome.v1 palindrome.v2 delimitersoup cipher icpcawards \
+grandadventure noduplicates babelfish pieceofcake palindrome.v3 \
+sortofsorting stackingcups linethemup
 
-OBJS = helloworld.o sum.o r2.o average.o secondlastdigit.o quadrantselection.o \
-fibonacci.o powers.o lastfactorialdigit.o harshadnumbers.o palindrome.v1.o \
+OBJS = helloworld.o sum.o r2.o average.o solvingforcarrots.o \
+secondlastdigit.o quadrantselection.o fibonacci.o powers.o \
+lastfactorialdigit.o harshadnumbers.o radiocommercials.o palindrome.v1.o \
 palindrome.v2.o delimitersoup.o cipher.o icpcawards.o grandadventure.o \
 noduplicates.o babelfish.o pieceofcake.o palindrome.v3.o sortofsorting.o \
-stackingcups.o
+stackingcups.o linethemup.o
 
 all: $(EXES)
 
@@ -39,6 +41,12 @@ average: average.o
 
 average.o: average.cpp
 	$(CC) -c average.cpp $(CC_FLAGS)
+
+solvingforcarrots: solvingforcarrots.o
+	$(CC) solvingforcarrots.o -o solvingforcarrots
+
+solvingforcarrots.o: solvingforcarrots.cpp
+	$(CC) -c solvingforcarrots.cpp $(CC_FLAGS)
 
 secondlastdigit: secondlastdigit.o
 	$(CC) secondlastdigit.o -o secondlastdigit
@@ -75,6 +83,12 @@ harshadnumbers: harshadnumbers.o
 
 harshadnumbers.o: harshadnumbers.cpp
 	$(CC) -c harshadnumbers.cpp $(CC_FLAGS)
+
+radiocommercials: radiocommercials.o
+	$(CC) radiocommercials.o -o radiocommercials
+
+radiocommercials.o: radiocommercials.cpp
+	$(CC) -c radiocommercials.cpp $(CC_FLAGS)
 
 palindrome.v1: palindrome.v1.o
 	$(CC) palindrome.v1.o -o palindrome.v1
@@ -147,6 +161,12 @@ stackingcups: stackingcups.o
 
 stackingcups.o: stackingcups.cpp
 	$(CC) -c stackingcups.cpp $(CC_FLAGS)
+
+linethemup: linethemup.o
+	$(CC) linethemup.o -o linethemup
+
+linethemup.o: linethemup.cpp
+	$(CC) -c linethemup.cpp $(CC_FLAGS)
 
 clean:
 	rm -f $(EXES) $(OBJS)
