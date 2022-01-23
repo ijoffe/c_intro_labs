@@ -4,15 +4,15 @@ CC_FLAGS = -std=c++11 -Wall -g
 EXES = helloworld sum r2 average solvingforcarrots secondlastdigit \
 quadrantselection fibonacci powers lastfactorialdigit harshadnumbers \
 radiocommercials palindrome.v1 palindrome.v2 delimitersoup cipher icpcawards \
-grandadventure noduplicates babelfish pieceofcake palindrome.v3 \
-sortofsorting stackingcups linethemup
+compoundwords grandadventure noduplicates babelfish pieceofcake \
+palindrome.v3 sortofsorting stackingcups linethemup
 
 OBJS = helloworld.o sum.o r2.o average.o solvingforcarrots.o \
 secondlastdigit.o quadrantselection.o fibonacci.o powers.o \
 lastfactorialdigit.o harshadnumbers.o radiocommercials.o palindrome.v1.o \
-palindrome.v2.o delimitersoup.o cipher.o icpcawards.o grandadventure.o \
-noduplicates.o babelfish.o pieceofcake.o palindrome.v3.o sortofsorting.o \
-stackingcups.o linethemup.o
+palindrome.v2.o delimitersoup.o cipher.o icpcawards.o compoundwords.o \
+grandadventure.o noduplicates.o babelfish.o pieceofcake.o palindrome.v3.o \
+sortofsorting.o stackingcups.o linethemup.o
 
 all: $(EXES)
 
@@ -119,6 +119,12 @@ icpcawards: icpcawards.o
 
 icpcawards.o: icpcawards.cpp
 	$(CC) -c icpcawards.cpp $(CC_FLAGS)
+
+compoundwords: compoundwords.o
+	$(CC) compoundwords.o -o compoundwords
+
+compoundwords.o: compoundwords.cpp
+	$(CC) -c compoundwords.cpp $(CC_FLAGS)
 
 grandadventure: grandadventure.o
 	$(CC) grandadventure.o -o grandadventure

@@ -37,6 +37,7 @@ The following problems have been solved:
 * Delimiter Soup (Exercise 5.4.3, Kattis problem at https://open.kattis.com/problems/delimitersoup) under filename delimitersoup.cpp
 * Cipher (Exercise 5.5.2) under filename cipher.cpp
 * ICPC Awards (Exercise 5.6.1, Kattis problem at https://open.kattis.com/problems/icpcawards) under filename icpcawards.cpp
+* Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords) under filename compoundwords.cpp
 * Grand Adventure (Task 5.8.1, Kattis problem at https://open.kattis.com/problems/thegrandadventure) under filename grandadventure.cpp
 * No Duplicates (Task 5.8.2, Kattis problem at https://open.kattis.com/problems/nodup) under filename noduplicates.cpp
 * Babelfish (Task 5.8.3, Kattis problem at https://open.kattis.com/problems/babelfish) under filename babelfish.cpp
@@ -47,7 +48,6 @@ The following problems have been solved:
 * Line Them Up (Task 6.6.2, Kattis problem at https://open.kattis.com/problems/lineup) under filename linethemup.cpp
 
 The following problems were skipped, and not solved:
-* Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
 * I Wanna Be The Very Best (Task 6.6.3, Kattis problem at https://open.kattis.com/problems/iwannabe)
 
 ## Technologies
