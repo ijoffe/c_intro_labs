@@ -4,18 +4,13 @@ CC_FLAGS = -std=c++11 -Wall -g
 EXES = helloworld sum r2 average secondlastdigit quadrantselection fibonacci \
 powers lastfactorialdigit harshadnumbers palindrome.v1 palindrome.v2 \
 delimitersoup cipher icpcawards grandadventure noduplicates babelfish \
-pieceofcake palindrome.v3
+pieceofcake palindrome.v3 sortofsorting stackingcups
 
 OBJS = helloworld.o sum.o r2.o average.o secondlastdigit.o quadrantselection.o \
 fibonacci.o powers.o lastfactorialdigit.o harshadnumbers.o palindrome.v1.o \
 palindrome.v2.o delimitersoup.o cipher.o icpcawards.o grandadventure.o \
-noduplicates.o babelfish.o pieceofcake.o palindrome.v3.o
-
-SRCS = helloworld.cpp sum.cpp r2.cpp average.cpp secondlastdigit.cpp \
-quadrantselection.cpp fibonacci.cpp powers.cpp lastfactorialdigit.cpp \
-harshadnumbers.cpp palindrome.v1.cpp palindrome.v2.cpp delimitersoup.cpp \
-cipher.cpp icpcawards.cpp grandadventure.cpp noduplicates.cpp babelfish.cpp \
-pieceofcake.cpp palindrome.v3.cpp
+noduplicates.o babelfish.o pieceofcake.o palindrome.v3.o sortofsorting.o \
+stackingcups.o
 
 all: $(EXES)
 
@@ -140,6 +135,18 @@ palindrome.v3: palindrome.v3.o
 
 palindrome.v3.o: palindrome.v3.cpp
 	$(CC) -c palindrome.v3.cpp $(CC_FLAGS)
+
+sortofsorting: sortofsorting.o
+	$(CC) sortofsorting.o -o sortofsorting
+
+sortofsorting.o: sortofsorting.cpp
+	$(CC) -c sortofsorting.cpp $(CC_FLAGS)
+
+stackingcups: stackingcups.o
+	$(CC) stackingcups.o -o stackingcups
+
+stackingcups.o: stackingcups.cpp
+	$(CC) -c stackingcups.cpp $(CC_FLAGS)
 
 clean:
 	rm -f $(EXES) $(OBJS)

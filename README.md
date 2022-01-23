@@ -40,6 +40,8 @@ The following problems have been solved:
 * Babelfish (Task 5.8.3, Kattis problem at https://open.kattis.com/problems/babelfish) under filename babelfish.cpp
 * Piece of Cake (Exercise 6.2.1, Kattis problem at https://open.kattis.com/problems/pieceofcake2) under filename pieceofcake.cpp
 * Palindrome Checking (Exercise 6.3.1) under filename palindrome.v3.cpp
+* Sort of Sorting (Exercise 6.4.1, Kattis problem at https://open.kattis.com/problems/sortofsorting) under filename sortofsorting.cpp
+* Stacking Cups (Task 6.6.1, Kattis problem at https://open.kattis.com/problems/cups) under filename stackingcups.cpp
 
 The following problems were skipped, and not solved:
 * Solving Carrots (Task 3.5.2, Kattis problem at https://open.kattis.com/problems/carrots)
@@ -47,8 +49,6 @@ The following problems were skipped, and not solved:
 * Compound Words (Exercise 5.7.1, Kattis problem at https://open.kattis.com/problems/compoundwords)
 
 The following problems still need to be solved:
-* Sort of Sorting (Exercise 6.4.1, Kattis problem at https://open.kattis.com/problems/sortofsorting)
-* Stacking Cups (Task 6.6.1, Kattis problem at https://open.kattis.com/problems/cups)
 * Line Them Up (Task 6.6.2, Kattis problem at https://open.kattis.com/problems/lineup)
 * I Wanna Be The Very Best (Task 6.6.3, Kattis problem at https://open.kattis.com/problems/iwannabe)
 * Student Record (Exercise 7.1.4)
