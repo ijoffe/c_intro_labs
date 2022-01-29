@@ -4,6 +4,9 @@
 #include <string>    // for contestant descriptions
 using namespace std;    // eliminate use of std:: prefix
 
+// solves kattis problem available at
+// "https://open.kattis.com/problems/carrots"
+
 // takes two integers representing the number of contestants and number of
 // problems as well as descriptions for each candidate from standard in and
 // prints the number of carrots to be awarded to standard out

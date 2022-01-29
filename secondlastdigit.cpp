@@ -3,10 +3,10 @@
 #include <iostream>    // for cin and cout object
 using namespace std;    // eliminate use of std:: prefix
 
-// takes a base-10 integer in standard in and prints its second-to-last digit
-// to standard out
+// takes a base-10 integer from standard in and prints its second-to-last
+// digit to standard out
 int main() {
-    int number, digit;    // assume int provides enough stoarge
+    int number, digit;
     cin >> number;
     if (number < 0) {
         number *= -1;    // ensure number is positive

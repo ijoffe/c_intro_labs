@@ -5,7 +5,7 @@ using namespace std;    // eliminates use of std:: prefix
 
 // takes two integers from standard in and prints their sum to standard out
 int main() {
-    int number1, number2, sum;    // assume int provides enough storage
+    int number1, number2, sum;
     cin >> number1 >> number2;
     sum = number1 + number2;
     cout << sum << endl;

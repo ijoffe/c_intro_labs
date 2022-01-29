@@ -3,7 +3,7 @@
 #include <iostream>    // for cin and cout object
 using namespace std;    // eliminate use of std:: prefix
 
-// solves kattis problem available at 
+// solves kattis problem available at
 // "https://open.kattis.com/problems/quadrant"
 
 // takes two integers from standard in representing a point in R^2 and prints
