@@ -23,7 +23,7 @@ vector<string> sort_of_sorting(int number) {
     }
 
     stable_sort(sorted.begin(), sorted.end());    // sort words alphabetically
-    // not ideal algorithm, only solution i could come up with
+    // not ideal algorithm, only solution i could figure out
     // apply bubblesort algorithm to move any words beginning with the same
     // two letters so that they appear in their original order
     for (unsigned long int i = 0; i < sorted.size() - 1; i++) {
@@ -31,7 +31,7 @@ vector<string> sort_of_sorting(int number) {
             // check if the elements have identical beginnings and check if
             // they appear out of order according to their input order
             if (((sorted[j]).substr(0, 2) == (sorted[j + 1]).substr(0, 2)) &&
-            find(names.begin(), names.end(), sorted[j]) > 
+            find(names.begin(), names.end(), sorted[j]) >
             find(names.begin(), names.end(), sorted[j + 1])) {
                 // swap elements using the temporary storage spot
                 string temporary = sorted[j];
@@ -47,7 +47,7 @@ vector<string> sort_of_sorting(int number) {
 // sort-of-sorted order to standard out
 int main() {
     int amount = 0;
-    queue<vector<string>> sorted;    // for ouputs
+    queue<vector<string>> sorted;    // for outputs
     while (true) {
         int number;
         cin >> number;

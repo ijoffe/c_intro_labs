@@ -10,10 +10,10 @@
 * [Example Usage](#example-usage)
 
 ## General Information
-This repository contains the code to solve most of the problems seen in the C++ Indtroductory Labs in the CMPUT 275 course. This code will be submitted in the C++ Intro Labs contest, providing solutions to the problems for future students. All code was created by me, Isaac Joffe, in January of 2022.
+This repository contains the code to solve all of the problems seen in the C++ Indtroductory Labs in the CMPUT 275 course. This code will be submitted in the C++ Intro Labs contest, providing solutions to the problems for future students. All code was created by me, Isaac Joffe, in January of 2022.
 
 ## Description
-The aim of the project is to create solution code for the problems contained in the C++ Introductory Labs. In addition to solution code written in C++ to most of the problems, a makefile is provided which compiles and links all source code contained to create binary executables for testing of the code.
+The aim of the project is to create solution code for the problems contained in the C++ Introductory Labs. In addition to solution code written in C++ to all of the problems, a makefile is provided which compiles and links all source code contained to create binary executables for testing of the code.
 
 ## Background
 The C++ Introductory Labs are provided at the beginning of the CMPUT 275 course to teach the basics of C++. The exercises require the use and manipulation of many fundamental concepts and tools, such as input, output, basic arithmetic, selection, iteration (definite and indefinite), basic data types (integers, floats, characters, booleans, etc.), advanced data types (arrays, vectors, stacks, strings, etc.), and more. The code contained will be submitted in the C++ Intro Labs class-wide contest for a chance to win a prize and to produce useful solution code for future students taking CMPUT 275.

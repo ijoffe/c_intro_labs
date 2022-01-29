@@ -10,13 +10,13 @@ using namespace std;    // eliminate use of std:: prefix
 int main() {
     int amount, price;    // int type satisfies kattis input guarantees
     cin >> amount >> price;
-    int breaks[amount];    // to store listeners at each break
+    int breaks[100000];    // at most 100 000 commercial breaks
     for (int i = 0; i < amount; i++) {
         cin >> breaks[i];
         breaks[i] -= price;    // look at only net profit
     }
 
-    // brute force algorithm, slow but effective
+    // not ideal, brute force algorithm, slow but effective
     int best = 0;
     for (int i = 0; i < amount; i++) {
         for (int j = i; j < amount; j++) {
@@ -26,7 +26,7 @@ int main() {
             for (int k = i; k < j; k++) {
                 sum += breaks[k];
             }
-            best = max(sum, best);    // update if new is better
+            best = max(sum, best);
         }
     }
     cout << best << endl;

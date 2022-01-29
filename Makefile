@@ -1,3 +1,5 @@
+# Made by Isaac Joffe
+
 CC = g++
 CC_FLAGS = -std=c++11 -Wall -g
 

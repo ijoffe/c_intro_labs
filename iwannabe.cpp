@@ -15,8 +15,8 @@ int main() {
     int amount, number;    // given as n and k on kattis
     cin >> amount >> number;
     // initialize 2 arrays for each stat, one to be manipulated by quickselect
-    unsigned int attacks[amount], defenses[amount], healths[amount];
-    unsigned int attacks_n[amount], defenses_n[amount], healths_n[amount];
+    unsigned int attacks[1000], defenses[1000], healths[1000];
+    unsigned int attacks_n[1000], defenses_n[1000], healths_n[1000];
     unordered_set<int> indices;    // holds the indices of pokenoms used
     for (int i = 0; i < amount; i++) {
         // read in and assign next values into all arrays
