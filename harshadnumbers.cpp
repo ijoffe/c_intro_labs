@@ -3,7 +3,7 @@
 #include <iostream>    // for cin and cout object
 using namespace std;    // eliminate use of std:: prefix
 
-// solves kattis problem available at 
+// solves kattis problem available at
 // "https://open.kattis.com/problems/harshadnumbers"
 
 // takes an integer and returns the integer sum of its digits

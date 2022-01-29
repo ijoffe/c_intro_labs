@@ -6,7 +6,7 @@
 #include <algorithm>    // for sort and find function
 using namespace std;    // eliminate use of std:: prefix
 
-// takes an arbritray number of strings from standard in and prints all
+// takes an arbitrary number of strings from standard in and prints all
 // possible combinations of them in alphabetical order to standard out
 int main() {
     string word;
@@ -31,7 +31,7 @@ int main() {
     sort(compounds.begin(), compounds.end());    // put in alphabetical order
 
     for (unsigned long int i = 0; i < compounds.size(); i++) {
-        cout << compounds[i] << endl;    // print one by one
+        cout << compounds[i] << endl;
     }
     return 0;    // default return
 }

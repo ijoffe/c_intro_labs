@@ -4,7 +4,7 @@
 #include <string>    // to hold the word
 using namespace std;    // eliminate use of std:: prefix
 
-// takes an input word from stndard in and prints that word to standard out
+// takes an input word from standard in and prints that word to standard out
 // with each letter shifted 3 letters down the alphabet
 int main() {
     string word;

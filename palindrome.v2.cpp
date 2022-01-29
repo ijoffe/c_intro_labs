@@ -2,7 +2,7 @@
 
 #include <iostream>    // for cin and cout object
 #include <string>    // to read in input
-#include <vector>    // to be used for the words
+#include <vector>    // to be used for storing words
 using namespace std;    // eliminate use of std:: prefix
 
 // takes an input string from standard in and prints if it is a palindrome or

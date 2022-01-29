@@ -5,7 +5,7 @@
 #include <string>    // to read in data with spaces
 using namespace std;    // eliminate use of std:: prefix
 
-// solves kattis problem available at 
+// solves kattis problem available at
 // "https://open.kattis.com/problems/delimitersoup"
 
 // takes an integer length and a sequence of brackets of that length from
@@ -13,9 +13,9 @@ using namespace std;    // eliminate use of std:: prefix
 // that error is to standard out, errors occur when brackets are not closed
 // with their own type
 int main() {
-    int length;    // int type satisfies kattis input gurantees
+    int length;
     cin >> length;
-    cin.ignore();    // account for newline 
+    cin.ignore();    // account for newline character in buffer
     stack<char> program;    // stack represents input sequence
     program.push('\0');    // initiate stack so it is never empty
     char type;

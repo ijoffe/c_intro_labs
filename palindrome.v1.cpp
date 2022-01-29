@@ -6,13 +6,13 @@ using namespace std;    // eliminate use of std:: prefix
 // takes a string and its length from standard in and prints if it is a
 // palindrome or not to standard out
 int main() {
-    int length;    // assume int provides enough storage space
+    int length;
     cin >> length;
-    char words[length];    // character array should have length elements
+    char words[100];    // assume has at most 100 characters
     for (int i = 0; i < length; i++) {
         cin >> words[i];
     }
-    
+
     bool flag = true;    // assume default is palindrome
     for (int i = 0; i < length / 2; i++) {
         if (words[i] != words[length - i - 1]) {
