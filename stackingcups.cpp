@@ -16,7 +16,7 @@ int main() {
     cin >> number;
     cin.ignore();    // ignore extra newline character
     vector<int> radii;
-    unordered_map<int, string> cups;
+    unordered_map<int, string> cups;    // to store colour-size relationships
 
     for (int i = 0; i < number; i++) {
         string inputline;

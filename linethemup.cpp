@@ -13,7 +13,7 @@ using namespace std;    // eliminate use of std:: prefix
 // if the names are given in alphabetical, reverse alphabetical, or no
 // particluar order
 int main() {
-    int amount;    // int type satisfies kattis input gurantees
+    int amount;
     cin >> amount;
     // create three parallel vectors to hold the names
     vector<string> normal, flipped, sorted;

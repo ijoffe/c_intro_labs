@@ -20,7 +20,7 @@ int main() {
         string word = "";    // set an empty string to hold the next word
         while (inputline[i] != ' ') {
             word += inputline[i];    // append nonspace characters to the word
-            i++;    // continue to move along input
+            i++;
         }
 
         if (words.find(word) != words.end()) {

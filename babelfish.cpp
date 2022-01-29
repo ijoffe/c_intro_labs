@@ -13,7 +13,7 @@ using namespace std;    // eliminate use of std:: prefix
 // word and its translation in a different dialect followed by a list of words
 // in that dialect and prints those words translated into english
 int main() {
-    unordered_map<string, string> dictionary;    // to transate language
+    unordered_map<string, string> dictionary;    // to translate language
     while (cin.peek() != '\n') {    // check if next line is blank
         string inputline;
         getline(cin, inputline);    // read whole line at once
@@ -23,11 +23,11 @@ int main() {
         string english = inputline.substr(0, space_index);
         // second word goes from space until the end
         string dialect = inputline.substr(space_index + 1);
-        dictionary[dialect] = english;    // enter into dictionary
+        dictionary[dialect] = english;    // note pairing in dictionary
     }
     cin.ignore();    // skip the blank line
 
-    queue<string> outputs;    // store outputs as first-in, first-out
+    queue<string> outputs;    // store outputs as first-in = first-out
     int length = 0;
     string word;
     while (getline(cin, word)) {
@@ -36,7 +36,7 @@ int main() {
         }
         if (dictionary.find(word) != dictionary.end()) {
             // if word is in dictionary, translate directly
-            outputs.push(dictionary.at(word));
+            outputs.push(dictionary[word]);
         } else {
             // if word is not in dictionary, simply translate to "eh"
             outputs.push("eh");

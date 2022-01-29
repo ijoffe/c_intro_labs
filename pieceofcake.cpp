@@ -4,7 +4,7 @@
 #include <algorithm>    // for max function
 using namespace std;    // eliminate use of std:: prefix
 
-// solves kattis problem available at 
+// solves kattis problem available at
 // "https://open.kattis.com/problems/pieceofcake2"
 
 // takes an integer representing the side lengths of a cake as well as

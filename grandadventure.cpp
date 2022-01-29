@@ -5,7 +5,7 @@
 #include <string>    // used to store input and output
 using namespace std;    // eliminate use of std:: prefix
 
-// solves kattis problem available at 
+// solves kattis problem available at
 // "https://open.kattis.com/problems/thegrandadventure"
 
 // takes a string from standard in and returns whether or not Jim can make it
@@ -13,9 +13,9 @@ using namespace std;    // eliminate use of std:: prefix
 string simulate_adventure() {
     string path;    // input representing path stored as a string
     cin >> path;
-    stack<char> bag;    // bag is first-in/last-out, like a stack
+    stack<char> bag;    // bag is first-in = last-out, like a stack
     bag.push('\0');    // initialize bag so it is never empty
-    
+
     bool flag = true;    // assume Jim can make it through
     for (long unsigned int i = 0; i < path.size(); i++) {
         if (path[i] == '$') {
@@ -45,7 +45,7 @@ string simulate_adventure() {
             } else {
                 flag = false;    // Jim cant make it through
                 break;
-            }           
+            }
         }
     }
 
@@ -64,9 +64,9 @@ string simulate_adventure() {
 // determine the adventure results, prints the results of teh adventure to
 // standard out
 int main() {
-    int amount;    // int satisfies kattis input gurantees
+    int amount;
     cin >> amount;
-    string output[5];    // based on kattis input gurantees
+    string output[5];    // at most 5 adventures
 
     for (int i = 0; i < amount; i++) {
         output[i] = simulate_adventure();    // process each string separately
